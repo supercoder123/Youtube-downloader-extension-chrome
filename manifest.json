@@ -3,11 +3,12 @@
   "description": "Download youtube videos- insert a new button on youtube",
   "version": "0.1",
   "manifest_version": 2,
+  "web_accessible_resources": ["src/youtubeDownloader.js"],
   "author": "Ashley Fernandes",
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/watch*"],
-      "js": ["src/youtubeDownloader.js"]
+      "js": ["src/loader.js"]
     }
   ],
   "permissions": ["*://*.youtube.com/*"]
