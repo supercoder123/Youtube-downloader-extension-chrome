@@ -12,5 +12,8 @@
       "css": ["src/buttonStyles.css"]
     }
   ],
-  "permissions": ["*://*.youtube.com/*", "downloads"]
+  "permissions": ["*://*.youtube.com/*", "downloads"],
+  "background": {
+    "scripts": ["src/background.js"]
+  }
 }
