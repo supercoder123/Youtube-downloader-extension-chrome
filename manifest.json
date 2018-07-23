@@ -8,7 +8,8 @@
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/watch*"],
-      "js": ["src/loader.js"]
+      "js": ["src/loader.js"],
+      "css": ["src/buttonStyles.css"]
     }
   ],
   "permissions": ["*://*.youtube.com/*"]
