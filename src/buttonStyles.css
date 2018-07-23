@@ -1,0 +1,15 @@
+#videoDownloadDropdown {
+  position: absolute;
+  border: 1px solid white;
+  width: 200px;
+  height: 100px;
+  background: white;
+  z-index: 999999;
+  box-shadow: 2px 2px 5px black;
+  display: none;
+  margin: 5px;
+}
+
+#videoDownloadDropdown.shown {
+  display: block;
+}
